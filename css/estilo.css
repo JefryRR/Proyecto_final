@@ -241,20 +241,46 @@ margin-top: 0.5em;
     color: rgb(248, 203, 0);
 }
 
-#comidas .carrusel1, #fila4{
-    display: inline-block;
-}
-
-#fila4{
+#principal {
+    overflow: hidden;
     width: 38%;
+    height: 200px;
+    display: flex;
 }
 
-#fila4 .col img{
-    width: 110px;
-    height: 110px;
-    border: none;
+.carrusel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.imagenes {
+    width: 80rem;
+    }
+
+.flechas {
+    position: absolute;
+    top: 0;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flechas a{
+   color: rgb(129, 10, 10);
+}
+
+
+#comidas .grupo, #principal{
     display: inline-block;
-    margin: 0 0.5em;
+}
+
+#comidas .organizar{
+    width: 48%;
+    margin:0 auto;
 }
 
 
@@ -342,21 +368,19 @@ footer{
     width: 80%;
 }
 
-#comidas .carrusel1, #fila4{
-    display: inline-block;
-}
 
-#fila4{
-    width: 48%;
-}
+.imagenes {
+    width: 40rem;
+    }
 
-#fila4 .col img{
-    width: 90px;
-    height: 70px;
-    border: none;
-    display: inline-block;
-}
+    #principal{
+        margin-right: 2rem;
+    }
 
+    .flechas {
+        height: 80%;
+        width: 80%;
+}
 }
 
 @media screen and (max-width:600px) {
@@ -450,28 +474,31 @@ footer{
     margin-bottom: 1em;
 }
 
-#sitios .borde, #comidas .borde, #fila4 .mejorar img{
+#sitios .borde, #comidas .borde, #fila4 .mejorar img, #principal .imagenes img{
     border-bottom: 3px rgb(248, 203, 0) solid;
 }
 
-#fila4 .mejorar{
-    width: 67px; 
-    margin-top: 300px;
-}
-
-#fila4 .mejorar img{
-    height: 90px;
-    margin:0;
-}
-
-#fila4 .col{
-    display: inline-flex;
-}
 
 #comidas .organizar{
-  margin-top: -400px;
+  margin-top: -30rem;
+  margin-bottom: 2rem;
   border: none;
 }
+
+.imagenes {
+    width: 25rem;
+    }
+
+    #principal{
+        margin-right: 2rem;
+        width: 100%;
+        margin-top: 17rem;
+    }
+
+    .flechas {
+        height: 80%;
+        width: 70%;
+    }
 
 footer{
     height: 5em;
