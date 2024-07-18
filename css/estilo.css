@@ -287,24 +287,15 @@ margin-top: 0.5em;
 
 @media screen and (min-width:600px)  and (max-width:901px) {
 
-    #fila .col{
-        width: 25%;
-    }
-    
+#fila .col{
+    width: 25%;
+}
 
-    #fila .col2{
-        width:75%;  
-        }
-    
 
-    nav ul li {
-        margin-right: 1em;
-    }
-    
-    nav ul li a{
-        font-size: 1em;  
-    }
-
+#fila .col2{
+    width:80%;
+    font-size: 0.8rem;
+}
 
    body {
     width: 90%;
@@ -439,17 +430,19 @@ footer{
     }
 
 #sitios .tablet{
- margin-top: 35em;
- border-bottom: 3px rgb(248, 203, 0) solid;
+ margin-top: 28rem;
 }
 #sitios .centrar{
-   margin-top: -50em;
+   margin-top: -43rem;
    border-bottom: none    
 } 
 
+#sitios .ocultar{
+    display: none;
+}
+
 #sitios .celular{
-    margin-top: 23em;
-    border-bottom: 3px rgb(248, 203, 0) solid;
+    margin-top: 28rem;
 }
 
 #sitios .abajo{
@@ -459,44 +452,70 @@ footer{
 
 #sitios .celular2{
     position: relative;
-    top:23em;
-    border-bottom: 3px rgb(248, 203, 0) solid;
+    top:32rem;
 }
 
 #sitios .abajo2{
     position: relative;
-    top:-24em;
+    top:-4rem;
     border-bottom: none  
 }
 
+#sitios .celular3{
+    margin-top: 33rem;
+}
+
+#sitios .abajo3{
+    margin-top: -38em;
+    border-bottom: none; 
+}
+
+#sitios .celular4{
+    margin-top: 28rem;
+}
+
+#sitios .abajo4{
+    margin-top: -35em;
+}
+
+#sitios .abajo5{
+    margin-top: -38em;
+    border-bottom: none; 
+}
+
+#sitios .fin{
+     margin-top: 33rem;
+}
 #sitios .sinborde, #comidas .sinborde{
     border: none;
     margin-bottom: 1em;
 }
 
-#sitios .borde, #comidas .borde, #fila4 .mejorar img, #principal .imagenes img{
+#sitios .borde, #comidas .borde, #fila4 .mejorar img, #principal .imagenes img, #sitios .celular, #sitios .celular2, #sitios .tablet, #sitios .fin, #comidas .celular, #comidas .celular2{
     border-bottom: 3px rgb(248, 203, 0) solid;
 }
 
 
 #comidas .organizar{
-  margin-top: -30rem;
-  margin-bottom: 2rem;
+  margin-top: -18rem;
   border: none;
 }
 
-.imagenes {
-    width: 25rem;
-    }
 
     #principal{
-        margin-right: 2rem;
         width: 100%;
-        margin-top: 17rem;
+        margin-top: 30rem;
+    }
+    
+    #principal .imagenes{
+        max-width: 100%;
     }
 
+    #comidas .acomodar{
+        margin-bottom: -3rem;
+    }
     .flechas {
-        height: 80%;
+        height: 45%;
         width: 70%;
     }
 
@@ -508,7 +527,7 @@ footer{
 .formulario{
     display: block;
     margin: 0.5em 0;
-    padding: 0.5em 15em 0.5em 0;
+    padding: 0.5em 5em 0.5em 0;
 }
 
 .final{
@@ -534,25 +553,45 @@ footer{
 }
 
 #comidas .celular{
-    margin-top: 20em;
-    border-bottom: 3px rgb(248, 203, 0) solid;
+    margin-top: 28rem;
 }
 
 #comidas .abajo{
-    margin-top: -28em;
-    border-bottom: none  
-}
-#comidas .celular2{
-    margin-top: 24em;
-    border-bottom: 3px rgb(248, 203, 0) solid;
-}
-
-#comidas .abajo2{
     margin-top: -33em;
     border-bottom: none  
 }
+#comidas .celular2{
+    margin-top: 22em;
+}
+
+
+#comidas .abajo2{
+    margin-top: -28em;
+    border-bottom: none  
+}
+
+#comidas .organizar{
+    margin-top: -42rem;
+    border-bottom: none  
+}
+
+#comidas .ocultar{
+    display: none;
+}
+
 
 #comidas h2, #sitios h2, #contactenos h2{
     text-align: center;
 }
+
+#fila2 .col2 h2{
+    font-size: 1.5em;
+}
+
+#fila2 .col2 p{
+    font-size: 1.2em;
+}
+
+
+
 }
